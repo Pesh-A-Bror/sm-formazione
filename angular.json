@@ -117,8 +117,16 @@
               "devServerTarget": "superprof:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "superprof"
+    }
+  },
+  "defaultProject": "superprof",
+  "cli": {
+    "analytics": false
+  }
 }
